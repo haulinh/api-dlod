@@ -1,20 +1,32 @@
 {
   "ids": {
-    "PlaceTravel": 12
+    "PlaceTravel": 12,
+    "Hotel": 11
   },
   "models": {
     "PlaceTravel": {
-      "1": "{\"name\":\"Galerie Nguyen\",\"type\":\"beautySpot\",\"isHot\":true,\"review\":\"good\",\"id\":\"1\"}",
-      "2": "{\"name\":\"Galerie Nguyen\",\"type\":\"beautySpot\",\"isHot\":true,\"review\":\"good\",\"id\":\"2\"}",
-      "3": "{\"name\":\"Pandora City Shopping Mall\",\"type\":\"shopping\",\"isHot\":true,\"review\":\"good\",\"id\":\"3\"}",
-      "4": "{\"name\":\"Cu Chi Tunnels\",\"type\":\"beautySpot\",\"isHot\":true,\"review\":\"good\",\"id\":\"4\"}",
-      "5": "{\"name\":\"Tháp Tài Chính Bitexco\",\"type\":\"beautySpot\",\"isHot\":true,\"review\":\"good\",\"id\":\"5\"}",
-      "6": "{\"name\":\"Bưu điện trung tâm Sài Gòn\",\"type\":\"beautySpot\",\"isHot\":true,\"review\":\"good\",\"id\":\"6\"}",
-      "7": "{\"name\":\"Phố đi bộ Nguyễn Huệ\",\"type\":\"beautySpot\",\"isHot\":true,\"review\":\"good\",\"id\":\"7\"}",
-      "8": "{\"name\":\"Chợ Ẩm Thực Đường Phố Bến Thành\",\"type\":\"shopping\",\"isHot\":true,\"review\":\"good\",\"id\":\"8\"}",
-      "9": "{\"name\":\"Chợ Ẩm Thực Đường Phố Bến Thành\",\"type\":\"meseum\",\"isHot\":true,\"review\":\"good\",\"id\":\"9\"}",
-      "10": "{\"name\":\"Dinh Độc Lập\",\"type\":\"meseum\",\"isHot\":true,\"review\":\"good\",\"id\":\"10\"}",
-      "11": "{\"name\":\"Bảo Tàng Y Học Cổ Truyền Việt Nam\",\"type\":\"meseum\",\"isHot\":true,\"review\":\"good\",\"id\":\"11\"}"
+      "1": "{\"name\":\"Chợ Bến Thành\",\"type\":\"market\",\"isHot\":true,\"review\":\"good\",\"id\":\"1\",\"star\":\"3.9\",\"image\":\"https://upload.wikimedia.org/wikipedia/commons/9/91/Ben_Thanh_market_2.jpg\"}",
+      "2": "{\"name\":\"Nhà Thờ Đức Bà\",\"type\":\"church\",\"isHot\":true,\"review\":\"good\",\"id\":\"2\",\"star\":\"4.5\",\"image\":\"https://dulichkhampha24.com/wp-content/uploads/2020/01/nha-tho-duc-ba-sai-gon-1.jpg\"}",
+      "3": "{\"name\":\"Bưu Điện trung tâm Sài Gòn\",\"type\":\"beautySpot\",\"isHot\":true,\"review\":\"good\",\"id\":\"3\",\"star\":\"4.4\",\"image\":\"https://mytourcdn.com/upload_images/Image/Location/4_3_2015/Buu-dien-trung-tam-sai-gon-mytour-2.jpg\"}",
+      "4": "{\"name\":\"Nhà Hát Lớn\",\"type\":\"beautySpot\",\"isHot\":true,\"review\":\"good\",\"id\":\"4\",\"star\":\"4.5\",\"image\":\"https://hanoi1000.vn/wp-content/uploads/2019/09/nha-hat-lon-thumnail.jpg\"}",
+      "5": "{\"name\":\"Sài Gòn Square\",\"type\":\"beautySpot\",\"isHot\":true,\"review\":\"good\",\"id\":\"5\",\"star\":\"4.4\",\"image\":\"https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/11/sai-gon-square-4-e1509553087427.jpg\"}",
+      "6": "{\"name\":\"Cầu Ánh Sao\",\"type\":\"beautySpot\",\"isHot\":true,\"review\":\"good\",\"id\":\"6\",\"star\":\"4\",\"image\":\"https://dulichkhampha24.com/wp-content/uploads/2020/01/cau-anh-sao-sai-gon-3.jpg\"}",
+      "7": "{\"name\":\"Dinh Độc Lập\",\"type\":\"building\",\"isHot\":true,\"review\":\"good\",\"id\":\"7\",\"star\":\"4.4\",\"image\":\"https://lh3.googleusercontent.com/proxy/BGjxQkwqnQlkmkzE9FkpAXDCs6ZL8TyiZMIGoCKAUquHyG51-fGsm78jYZyCx2yYlvCZK-tpM1CU6p75MOB7VQ9-Fh0kHvw5eVRVJwQPSwstnRY\"}",
+      "8": "{\"name\":\"Công viên nước Đầm Sen\",\"type\":\"entertainment\",\"isHot\":true,\"review\":\"good\",\"id\":\"8\",\"star\":\"4.3\",\"image\":\"https://lh3.googleusercontent.com/proxy/DJwJf23R1_IOuBas1hA_PpQpwMS-9a9VxuB3V8bz3mKCDsNFMXhXsmmoASprblciw_JMiV3IKf7VjOU9vO8iHgExRyZ7LrC4BFkpV49tT-IalKbD1XOgAnAPJMZokRU\"}",
+      "9": "{\"name\":\"Khu du lịch văn hóa Suối Tiên\",\"type\":\"entertainment\",\"isHot\":true,\"review\":\"good\",\"id\":\"9\",\"star\":\"4.2\",\"image\":\"https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/03/suoi-tien.jpg\"}",
+      "10": "{\"name\":\"Vincom Landmark 81\",\"type\":\"shopping\",\"isHot\":true,\"review\":\"good\",\"id\":\"10\",\"star\":\"4.5\",\"image\":\"https://image.tienphong.vn/w665/Uploaded/2018/uqvpbciv/2018_08_29/toan_canh_vgdf.jpg\"}"
+    },
+    "Hotel": {
+      "1": "{\"name\":\"The Myst Dong Khoi\",\"price\":1500000,\"discount\":0,\"star\":5,\"location\":{},\"isHaveParkingLot\":true,\"review\":\"good\",\"id\":\"1\"}",
+      "2": "{\"name\":\"Winsuites Saigon\",\"price\":846000,\"discount\":0,\"star\":3,\"location\":{},\"isHaveParkingLot\":true,\"review\":\"good\",\"id\":\"2\"}",
+      "3": "{\"name\":\"Pullman Saigon Centre\",\"price\":2450000,\"discount\":0,\"star\":5,\"location\":{},\"isHaveParkingLot\":true,\"review\":\"good\",\"id\":\"3\"}",
+      "4": "{\"name\":\"Silverland Charner Hotel\",\"price\":1490000,\"discount\":0,\"star\":3,\"location\":{},\"isHaveParkingLot\":true,\"review\":\"good\",\"id\":\"4\"}",
+      "5": "{\"name\":\"Orchids Saigon Hotel\",\"price\":960000,\"discount\":0,\"star\":4,\"location\":{},\"isHaveParkingLot\":true,\"review\":\"good\",\"id\":\"5\"}",
+      "6": "{\"name\":\"Icon Saigon - LifeStyle Design Hotel\",\"price\":837000,\"discount\":0,\"star\":4,\"location\":{},\"isHaveParkingLot\":true,\"review\":\"good\",\"id\":\"6\"}",
+      "7": "{\"name\":\"Grand Hotel Saigon\",\"price\":1375000,\"discount\":0,\"star\":4,\"location\":{},\"isHaveParkingLot\":true,\"review\":\"good\",\"id\":\"7\"}",
+      "8": "{\"name\":\"Caravelle Saigon\",\"price\":3757000,\"discount\":0,\"star\":5,\"location\":{},\"isHaveParkingLot\":true,\"review\":\"good\",\"id\":\"8\"}",
+      "9": "{\"name\":\"Silverland Yen Hotel \",\"price\":557000,\"discount\":0,\"star\":4,\"location\":{},\"isHaveParkingLot\":true,\"review\":\"good\",\"id\":\"9\"}",
+      "10": "{\"name\":\"Hotel Majestic Saigon\",\"price\":1657000,\"discount\":0,\"star\":4,\"location\":{},\"isHaveParkingLot\":true,\"review\":\"good\",\"id\":\"10\"}"
     }
   }
 }

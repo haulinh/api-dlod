@@ -52,6 +52,15 @@ export class PlaceTravel extends Entity {
   })
   review?: string;
 
+  @property({
+    type: 'string',
+  })
+  star?: string;
+
+  @property({
+    type: 'string',
+  })
+  image?: string;
 
   constructor(data?: Partial<PlaceTravel>) {
     super(data);
