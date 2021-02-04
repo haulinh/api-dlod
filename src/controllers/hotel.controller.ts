@@ -5,19 +5,19 @@ import {
   Filter,
   FilterExcludingWhere,
   repository,
-  Where
+  Where,
 } from '@loopback/repository';
 import {
-  del, get,
-  getModelSchemaRef, param,
-
-
-  patch, post,
-
-
-
-
-  put, Request, requestBody, RestBindings
+  del,
+  get,
+  getModelSchemaRef,
+  param,
+  patch,
+  post,
+  put,
+  Request,
+  requestBody,
+  RestBindings,
 } from '@loopback/rest';
 import {Hotel} from '../models';
 import {HotelRepository} from '../repositories';
@@ -26,9 +26,8 @@ export class HotelController {
   constructor(
     @repository(HotelRepository)
     public hotelRepository: HotelRepository,
-    @inject(RestBindings.Http.REQUEST) private request: Request
-
-  ) { }
+    @inject(RestBindings.Http.REQUEST) private request: Request,
+  ) {}
 
   @post('/hotels', {
     responses: {
@@ -62,9 +61,7 @@ export class HotelController {
       },
     },
   })
-  async count(
-    @param.where(Hotel) where?: Where<Hotel>,
-  ): Promise<Count> {
+  async count(@param.where(Hotel) where?: Where<Hotel>): Promise<Count> {
     return this.hotelRepository.count(where);
   }
 
@@ -83,11 +80,8 @@ export class HotelController {
       },
     },
   })
-  async find(
-    @param.filter(Hotel) filter?: Filter<Hotel>,
-  ): Promise<Hotel[]> {
-    console.log('resquest', this.request.query
-    )
+  async find(@param.filter(Hotel) filter?: Filter<Hotel>): Promise<Hotel[]> {
+    console.log('resquest', this.request.query);
     return this.hotelRepository.find(filter);
   }
 
@@ -127,7 +121,8 @@ export class HotelController {
   })
   async findById(
     @param.path.string('id') id: string,
-    @param.filter(Hotel, {exclude: 'where'}) filter?: FilterExcludingWhere<Hotel>
+    @param.filter(Hotel, {exclude: 'where'})
+    filter?: FilterExcludingWhere<Hotel>,
   ): Promise<Hotel> {
     return this.hotelRepository.findById(id, filter);
   }

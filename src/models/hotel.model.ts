@@ -50,6 +50,10 @@ export class Hotel extends Entity {
   })
   review?: string;
 
+  @property({
+    type: 'string',
+  })
+  district?: string;
 
   constructor(data?: Partial<Hotel>) {
     super(data);

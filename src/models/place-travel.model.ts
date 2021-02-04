@@ -62,6 +62,11 @@ export class PlaceTravel extends Entity {
   })
   image?: string;
 
+  @property({
+    type: 'string',
+  })
+  district?: string;
+
   constructor(data?: Partial<PlaceTravel>) {
     super(data);
   }
