@@ -1,7 +1,7 @@
 {
   "ids": {
     "PlaceTravel": 12,
-    "Hotel": 11
+    "Hotel": 13
   },
   "models": {
     "PlaceTravel": {
@@ -17,7 +17,7 @@
       "10": "{\"name\":\"Vincom Landmark 81\",\"type\":\"shopping\",\"isHot\":true,\"review\":\"good\",\"id\":\"10\",\"star\":\"4.5\",\"image\":\"https://image.tienphong.vn/w665/Uploaded/2018/uqvpbciv/2018_08_29/toan_canh_vgdf.jpg\"}"
     },
     "Hotel": {
-      "1": "{\"name\":\"The Myst Dong Khoi\",\"price\":1500000,\"discount\":0,\"star\":5,\"location\":{},\"isHaveParkingLot\":true,\"review\":\"good\",\"id\":\"1\"}",
+      "1": "{\"name\":\"The Myst Dong Khoi\",\"price\":1500000,\"discount\":0,\"star\":12,\"location\":{},\"isHaveParkingLot\":true,\"review\":\"bad\",\"id\":\"1\"}",
       "2": "{\"name\":\"Winsuites Saigon\",\"price\":846000,\"discount\":0,\"star\":3,\"location\":{},\"isHaveParkingLot\":true,\"review\":\"good\",\"id\":\"2\"}",
       "3": "{\"name\":\"Pullman Saigon Centre\",\"price\":2450000,\"discount\":0,\"star\":5,\"location\":{},\"isHaveParkingLot\":true,\"review\":\"good\",\"id\":\"3\"}",
       "4": "{\"name\":\"Silverland Charner Hotel\",\"price\":1490000,\"discount\":0,\"star\":3,\"location\":{},\"isHaveParkingLot\":true,\"review\":\"good\",\"id\":\"4\"}",
@@ -26,7 +26,9 @@
       "7": "{\"name\":\"Grand Hotel Saigon\",\"price\":1375000,\"discount\":0,\"star\":4,\"location\":{},\"isHaveParkingLot\":true,\"review\":\"good\",\"id\":\"7\"}",
       "8": "{\"name\":\"Caravelle Saigon\",\"price\":3757000,\"discount\":0,\"star\":5,\"location\":{},\"isHaveParkingLot\":true,\"review\":\"good\",\"id\":\"8\"}",
       "9": "{\"name\":\"Silverland Yen Hotel \",\"price\":557000,\"discount\":0,\"star\":4,\"location\":{},\"isHaveParkingLot\":true,\"review\":\"good\",\"id\":\"9\"}",
-      "10": "{\"name\":\"Hotel Majestic Saigon\",\"price\":1657000,\"discount\":0,\"star\":4,\"location\":{},\"isHaveParkingLot\":true,\"review\":\"good\",\"id\":\"10\"}"
+      "10": "{\"name\":\"Hotel Majestic Saigon\",\"price\":1657000,\"discount\":0,\"star\":4,\"location\":{},\"isHaveParkingLot\":true,\"review\":\"good\",\"id\":\"10\"}",
+      "11": "{\"name\":\"hoa su\",\"price\":123000,\"discount\":0,\"star\":3,\"review\":\"good\",\"id\":\"11\"}",
+      "12": "{\"name\":\"Thắng Lợi\",\"price\":300000,\"discount\":0,\"address\":\"Quận Hoàn Kiếm\",\"star\":5,\"review\":\"good\",\"image\":\"https://pix6.agoda.net/hotelImages/280/280516/280516_19093009240081572922.jpg?s=1024x768\",\"id\":\"12\"}"
     }
   }
 }

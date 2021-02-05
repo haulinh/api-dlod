@@ -81,7 +81,6 @@ export class HotelController {
     },
   })
   async find(@param.filter(Hotel) filter?: Filter<Hotel>): Promise<Hotel[]> {
-    console.log('resquest', this.request.query);
     return this.hotelRepository.find(filter);
   }
 

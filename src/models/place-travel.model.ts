@@ -53,9 +53,9 @@ export class PlaceTravel extends Entity {
   review?: string;
 
   @property({
-    type: 'string',
+    type: 'number',
   })
-  star?: string;
+  star?: number;
 
   @property({
     type: 'string',

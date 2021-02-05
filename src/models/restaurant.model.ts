@@ -53,6 +53,15 @@ export class Restaurant extends Entity {
   })
   highestPrice?: number;
 
+  @property({
+    type: 'string',
+  })
+  image?: string;
+
+  @property({
+    type: 'string',
+  })
+  district?: string;
 
   constructor(data?: Partial<Restaurant>) {
     super(data);

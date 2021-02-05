@@ -28,6 +28,11 @@ export class Hotel extends Entity {
   discount?: number;
 
   @property({
+    type: 'string',
+  })
+  address?: string;
+
+  @property({
     type: 'number',
     required: true,
   })
@@ -35,13 +40,13 @@ export class Hotel extends Entity {
 
   @property({
     type: 'object',
-    required: true,
+    // required: true,cons
   })
   location: object;
 
   @property({
     type: 'boolean',
-    required: true,
+    // required: true,
   })
   isHaveParkingLot: boolean;
 
@@ -54,6 +59,11 @@ export class Hotel extends Entity {
     type: 'string',
   })
   district?: string;
+
+  @property({
+    type: 'string',
+  })
+  image?: string;
 
   constructor(data?: Partial<Hotel>) {
     super(data);
