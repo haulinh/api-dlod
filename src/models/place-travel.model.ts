@@ -10,7 +10,6 @@ export class PlaceTravel extends Entity {
 
   @property({
     type: 'string',
-    required: true,
   })
   type: string;
 
@@ -23,7 +22,6 @@ export class PlaceTravel extends Entity {
 
   @property({
     type: 'boolean',
-    required: true,
   })
   isHot: boolean;
 
